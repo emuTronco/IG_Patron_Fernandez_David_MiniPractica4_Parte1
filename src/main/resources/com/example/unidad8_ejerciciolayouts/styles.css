@@ -1,0 +1,45 @@
+BorderPane {
+    -fx-background-color: palegreen;
+}
+
+.data {
+    -fx-margin: 20px;
+    -fx-border-insets: 5, 10;
+    -fx-border-style: solid, solid;
+    -fx-border-color: green, red;
+    -fx-border-width: 2px, 2px;
+    -fx-background-image: url(arrow_t_up_right.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+    -fx-background-size: 60px;
+}
+
+.link {
+    -fx-text-fill: red;
+}
+
+.link:visited {
+    -fx-text-fill: green;
+}
+
+.tree-cell{
+    -fx-font-style: oblique;
+    -fx-font-weight: normal;
+}
+
+.tree-cell:expanded {
+    -fx-font-weight: bold;
+}
+
+RadioButton:selected, CheckBox:selected {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+
+.list-cell:odd:selected {
+    -fx-background-color: red;
+}
+
+.list-cell:even:selected {
+    -fx-background-color: blue;
+}
